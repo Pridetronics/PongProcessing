@@ -51,14 +51,14 @@ void setup() {
   speed = 20;
   angle = newAngle();
 
-//  rightPaddle = new PaddleStupid( this, false, MaxX, MaxY, PaddleWidthRight, PaddleHeightRight, 6 );
+  rightPaddle = new PaddleStupid( this, false, MaxX, MaxY, PaddleWidthRight, PaddleHeightRight, 6 );
 //  rightPaddle = new PaddleRandom( this, false, MaxX, MaxY, PaddleWidthRight, PaddleHeightRight, 6 );
-  rightPaddle = new PaddleMatchY( this, false, MaxX, MaxY, PaddleWidthRight, PaddleHeightRight, 8 );
+//  rightPaddle = new PaddleMatchY( this, false, MaxX, MaxY, PaddleWidthRight, PaddleHeightRight, 8 );
 //  rightPaddle = new Paddle1( this, false, MaxX, MaxY, PaddleWidthRight, PaddleHeightRight, 8 );
 //  leftPaddle = new PaddleStupid( this, true, MaxX, MaxY, PaddleWidthLeft, PaddleHeightLeft, 8 );
-//  leftPaddle = new PaddleRandom( this, true, MaxX, MaxY, PaddleWidthLeft, PaddleHeightLeft, 8 );
+  leftPaddle = new PaddleRandom( this, true, MaxX, MaxY, PaddleWidthLeft, PaddleHeightLeft, 8 );
 //  leftPaddle = new PaddleMatchY( this, true, MaxX, MaxY, PaddleWidthLeft, PaddleHeightLeft, 8 );
-  leftPaddle = new Paddle1( this, true, MaxX, MaxY, PaddleWidthLeft, PaddleHeightLeft, 8 );
+//  leftPaddle = new Paddle1( this, true, MaxX, MaxY, PaddleWidthLeft, PaddleHeightLeft, 8 );
 }
 
 ////////////////////////////////////////////////////////////
